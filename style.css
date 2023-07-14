@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    display: block;
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: blue;
+}
